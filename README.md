@@ -6,7 +6,12 @@ Independent annotations, disagreement review and adjudicated export.
 
 **Role focus:** AI Data Tools / Full-stack Python. **Status:** working local portfolio implementation, with synthetic data.
 
-![Application screenshot](docs/screenshot.png)
+
+## Demo
+
+![How Annotation Review Studio works](docs/demo.gif)
+
+Excerpt from the recorded local UI demonstration, played faster. [Full recording](docs/demo.webm). [Screenshot](docs/screenshot.png). Rebuild with `./scripts/render_gif.sh` (FFmpeg required).
 
 ## The engineering decision
 
