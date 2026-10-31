@@ -1,0 +1,14 @@
+[
+  {
+    "id": "t1",
+    "text": "The checkout is down for every customer."
+  },
+  {
+    "id": "t2",
+    "text": "Could you resend my invoice?"
+  },
+  {
+    "id": "t3",
+    "text": "The dashboard color is difficult to read."
+  }
+]

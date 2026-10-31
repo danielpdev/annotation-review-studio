@@ -1,0 +1,58 @@
+{
+  "mode": "fixture",
+  "python": "3.12.13",
+  "recorded_at": "2026-10-31T13:50:43.352679+00:00",
+  "elapsed_seconds": 0.0146,
+  "result": {
+    "passed": true,
+    "scenario": {
+      "disagreement": {
+        "id": "t1",
+        "text": "The checkout is down for every customer.",
+        "annotations": [
+          {
+            "annotator": "A",
+            "label": "urgent"
+          },
+          {
+            "annotator": "B",
+            "label": "general"
+          }
+        ],
+        "disagreement": true,
+        "final_label": null,
+        "decisions": []
+      },
+      "resolved": {
+        "id": "t1",
+        "text": "The checkout is down for every customer.",
+        "annotations": [
+          {
+            "annotator": "A",
+            "label": "urgent"
+          },
+          {
+            "annotator": "B",
+            "label": "general"
+          }
+        ],
+        "disagreement": true,
+        "final_label": "urgent",
+        "decisions": [
+          {
+            "label": "urgent",
+            "reviewer": "Reviewer",
+            "reason": "All customers are affected by an outage."
+          }
+        ]
+      },
+      "export": [
+        {
+          "id": "t1",
+          "text": "The checkout is down for every customer.",
+          "label": "urgent"
+        }
+      ]
+    }
+  }
+}
